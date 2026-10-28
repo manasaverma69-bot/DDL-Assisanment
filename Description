@@ -1,0 +1,61 @@
+# MySQL Assignment 1 – DDL Commands & Constraints
+
+## Project Overview
+This assignment demonstrates the use of Data Definition Language (DDL) commands in MySQL to create and modify an Employee Database. It covers table creation, table alteration, and the implementation of database constraints.
+
+## Objective
+- Understand DDL commands in MySQL.
+- Create a database named `employee`.
+- Create tables for Departments, Location, and Employees.
+- Modify table structures using `ALTER TABLE`.
+- Apply constraints to maintain data integrity and relationships between tables.
+
+## Database Details
+
+**Database Name:** `employee`
+
+### Tables
+1. **Departments** – Stores department details.
+2. **Location** – Stores location information.
+3. **Employees** – Stores employee details and related department and location information.
+
+## SQL Concepts Covered
+
+| Command | Purpose |
+|---|---|
+| `CREATE DATABASE` | Creates a new database. |
+| `CREATE TABLE` | Creates database tables. |
+| `ALTER TABLE` | Modifies an existing table structure. |
+| `PRIMARY KEY` | Uniquely identifies each record. |
+| `FOREIGN KEY` | Establishes relationships between tables. |
+| `NOT NULL` | Prevents null values in a column. |
+| `UNIQUE` | Prevents duplicate values. |
+| `DEFAULT` | Assigns a default value. |
+
+## Steps Performed
+1. Created the `employee` database.
+2. Created the Departments, Location, and Employees tables.
+3. Defined appropriate columns and data types.
+4. Applied primary key and foreign key constraints.
+5. Modified table structures using `ALTER TABLE`.
+6. Checked table structures and verified the database relationships.
+
+## Tools Used
+- MySQL
+- MySQL Workbench
+- SQL
+
+## Learning Outcomes
+- Improved understanding of database schema design.
+- Practiced creating and modifying relational database tables.
+- Learned how to use constraints to maintain data consistency.
+- Gained practical experience with MySQL DDL commands.
+
+## Conclusion
+This assignment provided hands-on experience with MySQL DDL commands and database constraints. It helped develop a foundation in relational database design and table management.
+
+---
+
+**Author:** Manasa Tirumalaraju
+
+**Assignment:** MySQL Assignment 1 – DDL Commands & Constraints
